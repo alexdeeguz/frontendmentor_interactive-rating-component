@@ -43,6 +43,7 @@ body {
     
         color: #FFFFFF;
         margin: 30px 0px 15px 0px;
+        display: inline-block;
 }
 
 .card__desc {
