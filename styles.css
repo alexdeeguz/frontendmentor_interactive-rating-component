@@ -156,6 +156,12 @@ body {
     z-index: -1;
 }
 
+.rating__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rating--results {
         font-family: 'Overpass';
         font-style: normal;
@@ -169,7 +175,12 @@ body {
         /* Orange */
     
         color: #FC7614;
-        margin: 36px 0px;
+        margin: 32px 0px;
+
+    background: #262E38;
+        border-radius: 22.5px;
+        width: 193px;
+        height: 32px;
 }
 
 .card__title--thankyou {
