@@ -10,9 +10,13 @@ ratings.forEach(rating => {
                     );
         }
         e.target.classList.add("active")
-        console.log(document.getElementById('card'))
-        document.getElementById("card").style.animation =
-          "nextCard 0.5s";
-        
     })
+})
+
+document.getElementById('submit-btn').addEventListener('click', () => {
+    const card = document.getElementById("card")
+    const thankyouCard = document.getElementById("card--thankyou")
+    console.log(thankyouCard)
+    card.style.animation = "cardOut 0.5s forwards";
+    thankyouCard.style.animation = "cardIn 0.5s 0.5s forwards";
 })
