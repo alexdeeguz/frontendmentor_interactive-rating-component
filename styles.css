@@ -113,3 +113,22 @@ body {
     transition: 0.5s ease-out;
     cursor: pointer;
 }
+
+.active {
+    background-color: #FC7614;
+    color: white;
+}
+
+@keyframes nextCard {
+
+
+    50% {
+        scale: 0;
+        opacity: 1;
+        display: none;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
