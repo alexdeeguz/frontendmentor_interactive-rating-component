@@ -96,14 +96,17 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    line-height: 19px;
+    /* line-height: 19px */
     /* identical to box height */
 
     letter-spacing: 2px;
 
     text-align: center;
-    padding: 11px 138px 15px 138px;
+    padding: 13px 138px;
     transition: 0.25s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
