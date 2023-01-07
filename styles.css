@@ -1,228 +1,228 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    background: #000000;
-    position: relative;
+  background: #000000;
+  position: relative;
 }
 
 .card {
-    width: 41.2rem;
-    height: 41.6rem;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
-    border-radius: 3.0rem;
-    position: absolute;
-    top: 19.5rem;
-    left: 51.4rem;
-    padding: 3.2rem 4.0rem 3.2rem 3.2rem;
+  width: 41.2rem;
+  height: 41.6rem;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 3rem;
+  position: absolute;
+  top: 19.5rem;
+  left: 51.4rem;
+  padding: 3.2rem 4rem 3.2rem 3.2rem;
 }
 
 .card__star {
-    height: 4.8rem;
-    width: 4.8rem;
-    background-color: rgba(38, 46, 56, 1);
-    border-radius: 5.0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 4.8rem;
+  width: 4.8rem;
+  background-color: rgba(38, 46, 56, 1);
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__title {
-    /* Heading (Large) */
-    
-        font-family: 'Overpass';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 2.8rem;
-        line-height: 3.5rem;
-    
-        /* Pure White */
-    
-        color: #FFFFFF;
-        /* margin: 3.0rem .0rem 1.5rem .0rem; */
-        display: inline-block;
-        margin-bottom: 1.5rem;
-        margin-top: 3.0rem;
+  /* Heading (Large) */
+
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+
+  /* Pure White */
+
+  color: #ffffff;
+  /* margin: 3.0rem .0rem 1.5rem .0rem; */
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
 }
 
 .card__desc {
-/* Body */
+  /* Body */
 
-    font-family: 'Overpass';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
-    /* or 160% */
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  /* or 160% */
 
+  /* Light Grey */
 
-    /* Light Grey */
-
-    color: #969FAD;
-    margin-bottom: 2.4rem;
+  color: #969fad;
+  margin-bottom: 2.4rem;
 }
 
-
 .rating {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
 }
 
 .rating__num {
-    background: #262E38;
-    color: rgba(124, 135, 152, 1);
-    border-radius: 5.0rem;
-/* Rating */
+  background: #262e38;
+  color: rgba(124, 135, 152, 1);
+  border-radius: 5rem;
+  /* Rating */
 
-    font-family: 'Overpass';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    /* identical to box height, or 150% */
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  /* identical to box height, or 150% */
 
-    text-align: center;
-    letter-spacing: 0.2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
 
-    /* Medium Gray */
+  /* Medium Gray */
 
-    color: #7C8798;
-    /* padding: 1.3rem 2.1rem 1.4rem 2.2rem; */
-    width: 5.1rem;
-    height: 5.1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #7c8798;
+  /* padding: 1.3rem 2.1rem 1.4rem 2.2rem; */
+  width: 5.1rem;
+  height: 5.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rating__num:hover {
-    background: rgba(252, 118, 20, 1);
-    color: white;
-    transition: 0.5s ease-out;
-    cursor: pointer;
+  background: rgba(252, 118, 20, 1);
+  color: white;
+  transition: 0.5s ease-out;
+  cursor: pointer;
 }
 
 .btn {
-    background: #FC7614;
-    border-radius: 22.5rem;
-    color: rgba(255, 255, 255, 1);
-    
-    font-family: 'Overpass';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 1.9rem;
-    /* identical to box height */
+  background: #fc7614;
+  border-radius: 22.5rem;
+  color: rgba(255, 255, 255, 1);
 
-    letter-spacing: .2rem;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  /* identical to box height */
 
-    text-align: center;
-    padding: 1.3rem 13.7rem 1.3rem 13.7rem;
-    transition: 0.25s ease-in;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
+  letter-spacing: 0.2rem;
+
+  text-align: center;
+  padding: 1.3rem 13.7rem 1.3rem 13.7rem;
+  transition: 0.25s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .btn:hover {
-    color: #FC7614;
-    background-color: white;
-    transition: 0.5s ease-out;
-    cursor: pointer;
+  color: #fc7614;
+  background-color: white;
+  transition: 0.5s ease-out;
+  cursor: pointer;
 }
 
 .active {
-    background-color: #FC7614;
-    color: white;
+  background-color: #fc7614;
+  color: white;
 }
 
 @keyframes cardOut {
-
-    100% {
-        scale: 0;
-        opacity: 0;
-    }
+  100% {
+    scale: 0;
+    opacity: 0;
+  }
 }
 
 @keyframes cardIn {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
 
-    0% {
-        scale: 0;
-        opacity: 0;
-    }
-
-    100% {
-        scale: 1;
-        opacity: 1;
-    }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
 }
 
 /* THANK YOU */
 
 .illustration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card--thankyou {
-    padding-top: 4.5rem;
-    text-align: center;
-    /* display: none; */
-    opacity: 0;
-    z-index: -1;
+  padding-top: 4.5rem;
+  text-align: center;
+  /* display: none; */
+  opacity: 0;
+  z-index: -1;
 }
 
 .rating__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rating--results {
-        font-family: 'Overpass';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.5rem;
-        line-height: 2.4rem;
-        /* identical to box height, or 160% */
-    
-        text-align: center;
-    
-        /* Orange */
-    
-        color: #FC7614;
-        margin: 3.2rem .0rem;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  /* identical to box height, or 160% */
 
-    background: #262E38;
-        border-radius: 22.5rem;
-        width: 19.3rem;
-        height: 3.2rem;
+  text-align: center;
+
+  /* Orange */
+
+  color: #fc7614;
+  margin: 3.2rem 0rem;
+
+  background: #262e38;
+  border-radius: 22.5rem;
+  width: 19.3rem;
+  height: 3.2rem;
 }
 
 .card__title--thankyou {
-    font-family: 'Overpass';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.8rem;
-    line-height: 3.5rem;
-    margin: 0;
-    display: inline-block;
-    color: white;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  margin: 0;
+  display: inline-block;
+  color: white;
 }
 
 .card__desc--thankyou {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
-    margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-top: 1.5rem;
 }

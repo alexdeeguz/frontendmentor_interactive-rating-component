@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | Interactive rating component</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Overpass" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass"
+      rel="stylesheet"
+    />
     <script src="index.js" defer></script>
-</head>
+  </head>
 
-<body>
-
-    <!-- Rating state start -->
-    <div class="card" id="card">
+  <body>
+    <main>
+      <div class="card" id="card">
         <div class="card__star">
-            <img src="./images/icon-star.svg" alt="star icon"/>
+          <img src="./images/icon-star.svg" alt="star icon" />
         </div>
 
         <h1 class="card__title">How did we do?</h1>
-        <p class="card__desc">Please let us know how we did with your support request. All feedback is appreciated
-        to help us improve our offering!</p>
+        <p class="card__desc">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
 
         <div class="rating">
-            <p class="rating__num">1</p>
-            <p class="rating__num">2</p>
-            <p class="rating__num">3</p>
-            <p class="rating__num">4</p>
-            <p class="rating__num">5</p>
+          <p class="rating__num">1</p>
+          <p class="rating__num">2</p>
+          <p class="rating__num">3</p>
+          <p class="rating__num">4</p>
+          <p class="rating__num">5</p>
         </div>
 
-        <p class="btn" id="submit-btn">
-            Submit
-        </p>
-    </div>
+        <p class="btn" id="submit-btn">Submit</p>
+      </div>
 
-    <div class="card card--thankyou" id="card--thankyou">
+      <div class="card card--thankyou" id="card--thankyou">
         <div class="illustration">
-            <img src="./images/illustration-thank-you.svg" alt="illustration"/>
+          <img src="./images/illustration-thank-you.svg" alt="illustration" />
         </div>
-    
+
         <div class="rating__container">
-            <p class="rating--results">You selected <span id="rating-selected">4</span> out of 5</p>
+          <p class="rating--results">
+            You selected <span id="rating-selected">4</span> out of 5
+          </p>
         </div>
 
         <h1 class="card__title--thankyou">Thank you!</h1>
 
-        <p class="card__desc card__desc--thankyou">We appreciate you taking the time to give a rating. If you ever need more support,
-        don't hesitate to get in touch!</p>
-    </div>
-
-
-    <!-- <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-    </div> -->
-</body>
-
+        <p class="card__desc card__desc--thankyou">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </main>
+    <footer>
+        <div class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI"
+                target="_blank">Frontend Mentor</a>. Coded by
+            <a href="https://github.com/alexdeeguz" target="_blank">Alex De Guzman</a>.
+        </div>
+    </footer>
+  </body>
 </html>
