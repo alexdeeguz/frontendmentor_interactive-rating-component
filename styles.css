@@ -11,11 +11,13 @@ html {
 body {
   background: #000000;
   position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .card {
-  width: 41.2rem;
-  height: 41.6rem;
+  min-width: 41.2rem;
+  min-height: 41.6rem;
   background: radial-gradient(
     98.96% 98.96% at 50% 0%,
     #232a34 0%,
@@ -23,8 +25,8 @@ body {
   );
   border-radius: 3rem;
   position: absolute;
-  top: 19.5rem;
-  left: 51.4rem;
+  margin-top: 19.5rem;
+  margin-left: 51.4rem;
   padding: 3.2rem 4rem 3.2rem 3.2rem;
 }
 
@@ -225,4 +227,13 @@ body {
   font-size: 1.5rem;
   line-height: 2.4rem;
   margin-top: 1.5rem;
+}
+
+
+.attribution {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
 }
